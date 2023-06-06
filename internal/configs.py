@@ -50,9 +50,9 @@ class Config:
   ## ------ FreeNeRF add-ons --------- ##
   #### wandb settings ###
   expname: str = 'debug'
-  use_wandb: bool = True  # Whether to use wandb.
+  use_wandb: bool = False  # Whether to use wandb.
   entity: str = 'FreeNeRF'
-  project: str = 'dtu_debug'
+  project: str = 'llff'
   log_img_to_wandb: bool = False  # Whether to log images to wandb.
   ###### end of wandb settings ###########
   freq_reg: bool = False # Whether to use frequency regularization.
